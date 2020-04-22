@@ -4,3 +4,11 @@
   <!-- <input type="hidden" name="id" value="{{this.id}}"> -->
   <button type="submit">DEVOUR!</button>
 </form>
+
+<li>
+	{{name}}
+
+	<button class="DEVOUR" burger_id="{{id}}" burgerData="{{DEVOUR}}">
+		{{#if DEVOUR}}DEVOURED!{{else}}Eat da burger!{{/if}}
+	</button>
+</li>
