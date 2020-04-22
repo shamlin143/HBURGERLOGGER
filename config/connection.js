@@ -13,6 +13,7 @@ if (process.env.JAWSDB_URL){
   password: "Heidijosh143!",
   database: "HBURGERBLOGGER"
 });
+}
 
 // Make connection.
 connection.connect(function(err) {
